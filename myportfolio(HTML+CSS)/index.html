@@ -1,0 +1,150 @@
+<!-- 
+1.Use Only HTML & Pure CSS Pure & No Library 
+2.concept 1 page 3 section
+    //section 1
+        personal information : university
+    //section 2
+        skill & project
+    //section 3
+        contract 
+3.responsive
+-->
+<!-- color
+black #151515
+maron #A91D3A
+red   #C73659
+white #EEEEEE
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Pantong</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/945a2c2913.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="details">
+          <p class="name">PANTONG</p>
+          <p class="name">SANONOK</p>
+          <p class="port-web">Portfolio website</p>
+          <button class="see-details">
+            <a href="#content-top">Click to see more details</a>
+          </button>
+        </div>
+      </div>
+      <img class="my-pic" src="src/P1001711.jpg" alt="picture" />
+    </header>
+
+    <!-- main -->
+    <article id="content-top" >
+      <div class="grid-container-top">
+        <div class="personal-container">
+          <div class="topic-block">
+            <div class="topic-text">Personal</div>
+          </div>
+          <div class="detail-box">
+            <ul class="detail">
+              <li>Name : Pantong Sanonok</li>
+              <li>Nickname : P</li>
+              <li>Age : 19 Years old</li>
+              <li>University: Kasetsart University</li>
+              <li>Major : Computer engineering</li>
+              <li>GPX : 3.79</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-container">
+          <div class="topic-block">
+            <div class="topic-text">Experience</div>
+          </div>
+          <ul class="detail">
+            <li class="go-bottom">2023</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <br>
+            <li class="go-bottom" >2024</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li>Activity  : Lorem, ipsum dolor.</li>
+            <li><a href="#content-bottom" class="go-bottom">more deatils!</a></li>
+          </ul>
+        </div>
+        <div class="habbits-container">
+          <div class="topic-block">
+            <div class="topic-text">Habbits</div>
+          </div>
+          <ul class="detail">
+            <li>Trading forex</li>
+            <li>Read books</li>
+            <li>Workout</li>
+          </ul>
+        </div>
+    </article>
+    
+    <!-- article buttom -->
+    <article id="content-bottom" >
+      <div class="grid-container-bottom">
+        <div class="project-container">
+          <div class="topic-block">
+            <div class="topic-text">Projects</div>
+          </div>
+          <div class="detail-projects-container">
+            <div class="projects">
+                <img src="./src/GPS-Tracker.jpg" alt="project-img">
+                <p class="topic-projects">GPS Tracking <br>by ESP32 + Neo6M</p>
+                <p class="topic-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate, eligendi voluptatem quis fugit rem error dicta sapiente architecto. Vel quod ex nam fugit facere recusandae. Quasi ratione dolorum ipsum.</p>
+                
+            </div>
+            <div class="projects">
+              <img src="./src/GPS-Tracker.jpg" alt="project-img">
+                 <p class="topic-projects">GPS Tracking <br>by ESP32 + Neo6M</p>
+                <p class="topic-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate, eligendi voluptatem quis fugit rem error dicta sapiente architecto. Vel quod ex nam fugit facere recusandae. Quasi ratione dolorum ipsum.</p>
+                 
+            </div>
+            <div class="projects">
+              <img src="./src/GPS-Tracker.jpg" alt="project-img">
+                 <p class="topic-projects">GPS Tracking <br>by ESP32 + Neo6M</p>
+                 <p class="topic-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptate, eligendi voluptatem quis fugit rem error dicta sapiente architecto. Vel quod ex nam fugit facere recusandae. Quasi ratione dolorum ipsum.</p>      
+            </div>
+          </div>
+        </div>
+        <div class="programming-container">
+          <div class="topic-block">
+            <div class="topic-text">Programming</div>
+           <div class="img-container">
+              <img src="./src/html.png" alt="img-html">
+              <img src="./src/css.png" alt="img-css">
+           </div>
+          </div>
+        </div>
+        <div class="contract-container">
+          <div class="topic-block">
+            <div class="topic-text">Contract&nbspme</div>
+            <div class="icon-container">
+              <a href=""><img src="./src/icons/square-facebook.svg" alt=""></a>
+              <a href=""><img src="./src/icons/square-github.svg" alt=""></a>
+              <a href=""><img src="./src/icons/instagram.svg" alt=""></a>
+            </div>
+          </div>
+        
+        </div>
+    </article>
+  </body>
+</html>
